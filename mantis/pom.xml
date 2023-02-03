@@ -4,30 +4,27 @@
 	<artifactId>mantis</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<dependencies>
-		
 		<dependency>
 			<groupId>io.github.bonigarcia</groupId>
 			<artifactId>webdrivermanager</artifactId>
 			<version>5.3.2</version>
 		</dependency>
-		
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.0</version>
 			<scope>test</scope>
 		</dependency>
-		
+		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver -->
 		<dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-chrome-driver</artifactId>
-        </dependency>
-        
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-chrome-driver</artifactId>
+			<version>4.8.0</version>
+		</dependency>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
 			<version>4.8.0</version>
 		</dependency>
-		
 	</dependencies>
 </project>
